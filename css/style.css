@@ -1,0 +1,76 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+
+#main{
+    width: 90%;
+    background-color: white;
+}
+
+#navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px 16px;
+    display: inline-block;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    margin-top: -3%;
+}
+
+ul li a:hover{
+  color: blue;  
+}
+
+#AboutMe h2{
+    font-size: 26px;
+    color:rgb(34, 30, 28);
+    margin-left: auto;
+    margin-bottom: 2%;
+}
+
+#AboutMe h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin-bottom: 1%;
+
+}
+
+#project{
+    margin-top: 2%;
+}
+
+#projects h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+#footer{
+    background-color: beige;
+    color: darkred;
+    text-align: center;
+}
+
+#project ol li{
+    list-style: none;
+    padding: 3px;
+}
